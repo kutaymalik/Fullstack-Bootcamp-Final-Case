@@ -55,7 +55,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
   
 - Gereklilikleri (npm install) indiriniz. <br/> <br/>
-- 
+ 
   ![download requirements](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/f7fc42c6-7272-40dd-870b-b7f5048a3d04) <br/> <br/>
 
   
