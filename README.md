@@ -29,8 +29,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
   ![db path](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/d7127c3e-f981-4a93-8cc3-4b7412b9b999) <br/> <br/>
 
   
-- Developer Powershell terminalini açarak (dotnet ef migrations add InitialMigration --verbose --project OrderAutomationsProject.Data --startup-project OrderAutomationsProject.Api <br/> <br/>
-) komutunu çalıştırınız
+- Developer Powershell terminalini açarak (dotnet ef migrations add InitialMigration --verbose --project OrderAutomationsProject.Data --startup-project OrderAutomationsProject.Api) komutunu çalıştırınız  <br/> <br/>
   
 ![add migration](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/42d8ea21-2e5a-47f5-9129-fb81e382abc4) <br/> <br/>
 
