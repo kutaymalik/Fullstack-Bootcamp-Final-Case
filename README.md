@@ -34,7 +34,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 ![add migration](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/42d8ea21-2e5a-47f5-9129-fb81e382abc4) <br/> <br/>
 
 
-- Update Databse komutunu çalıştırınız <br/> <br/>
+- Update Databse komutunu çalıştırınız (dotnet ef database update  --verbose --project OrderAutomationsProject.Data --startup-project OrderAutomationsProject.Api) <br/> <br/>
 
   ![update database](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/89d3addb-f1c3-46f4-8ac8-12a1cc6872de) <br/> <br/>
 
