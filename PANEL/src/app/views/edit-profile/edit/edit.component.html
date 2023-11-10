@@ -1,0 +1,53 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Dealer Edit</strong>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="dealerForm" cForm>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput3">First Name</label>
+          <input cFormControl
+                 id="exampleFormControlInput3"
+                 placeholder=""
+                 type="text"
+                 formControlName="firstName"
+          />
+        </div>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput3">Last Name</label>
+          <input cFormControl
+                 id="exampleFormControlInput3"
+                 placeholder=""
+                 type="text"
+                 formControlName="lastName"
+          />
+        </div>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput3">Email</label>
+          <input cFormControl
+                 id="exampleFormControlInput3"
+                 placeholder=""
+                 type="text"
+                 formControlName="email"
+          />
+        </div>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput3">Phone Number</label>
+          <input cFormControl
+                 id="exampleFormControlInput3"
+                 placeholder=""
+                 type="text"
+                 formControlName="phoneNumber"
+          />
+        </div>
+        
+        <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+          Save
+        </button>
+      </form>
+    </c-card-body>
+</c-card>

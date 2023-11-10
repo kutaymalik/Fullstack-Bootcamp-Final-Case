@@ -1,0 +1,17 @@
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\bin\Debug\net7.0\OrderAutomationsProject.Data.deps.json
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\bin\Debug\net7.0\OrderAutomationsProject.Data.runtimeconfig.json
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\bin\Debug\net7.0\OrderAutomationsProject.Data.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\bin\Debug\net7.0\OrderAutomationsProject.Data.pdb
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\bin\Debug\net7.0\OrderAutomationsProject.Base.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\bin\Debug\net7.0\OrderAutomationsProject.Base.pdb
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.csproj.AssemblyReference.cache
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.AssemblyInfoInputs.cache
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.AssemblyInfo.cs
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.csproj.CopyComplete
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\refint\OrderAutomationsProject.Data.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.pdb
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\OrderAutomationsProject.Data.genruntimeconfig.cache
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject.Data\obj\Debug\net7.0\ref\OrderAutomationsProject.Data.dll

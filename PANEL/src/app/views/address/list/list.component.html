@@ -1,0 +1,38 @@
+<c-card class="mb-4">
+    <c-card-header>
+      <c-spinner color="primary" *ngIf="loading"></c-spinner>
+      <strong>Address List</strong>
+    </c-card-header>
+    <c-card-body>
+        <table cTable>
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Address Line 1</th>
+            <th scope="col">Address Line 2</th>
+            <th scope="col">City</th>
+            <th scope="col">County</th>
+            <th scope="col">Postal Code</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let d of data">
+            <th scope="row">{{d.dealerId}}</th>
+            <td>{{ d.addressLine1 }}</td>
+            <td>{{ d.addressLine2 }}</td>
+            <td>{{ d.city }}</td>
+            <td>{{ d.county }}</td>
+            <td>{{ d.postalCode }}</td>
+            <td><button routerLink="/address/edit/:{{d.id}}" cButton class="px-2" color="primary">
+              Edit
+            </button></td>
+            <td><button cButton (click)="isDelete(d.id)" class="px-2" color="primary">
+              Delete
+            </button></td>
+          </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+  </c-card>

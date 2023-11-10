@@ -1,0 +1,89 @@
+<c-card class="mb-4" *ngIf="Role === 'admin'">
+  <c-card-header>
+    <c-spinner color="primary" *ngIf="loading"></c-spinner>
+    <strong>Reports</strong>
+  </c-card-header>
+  <c-card-body>
+    <c-row>
+      <c-col xs="12" lg="6">
+        <c-card class="mb-4">
+          <c-card-header>
+            Günlük Sipariş Yoğunluğu
+          </c-card-header>
+          <c-card-body>
+            <c-chart type="bar" [data]="chartBarDataDay"></c-chart>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+    <c-row>
+      <c-col xs="12" lg="6">
+        <c-card class="mb-4">
+          <c-card-header>
+            Haftalık Sipariş Yoğunluğu
+          </c-card-header>
+          <c-card-body>
+            <c-chart type="bar" [data]="chartBarDataWeek"></c-chart>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+    <c-row>
+      <c-col xs="12" lg="6">
+        <c-card class="mb-4">
+          <c-card-header>
+            Aylık Sipariş Yoğunluğu
+          </c-card-header>
+          <c-card-body>
+            <c-chart type="bar" [data]="chartBarDataMonth"></c-chart>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+  </c-card-body>
+</c-card>  
+  
+<c-card class="mb-4" *ngIf="Role === 'dealer'">
+  <c-card-header>
+    <c-spinner color="primary" *ngIf="loading"></c-spinner>
+    <strong>Reports</strong>
+  </c-card-header>
+  <c-card-body>
+    <c-row>
+      <c-col xs="12" lg="6">
+        <c-card class="mb-4">
+          <c-card-header>
+            Günlük Sipariş Yoğunluğu
+          </c-card-header>
+          <c-card-body>
+            <c-chart type="bar" [data]="chartBarDataDayDealer"></c-chart>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+    <c-row>
+      <c-col xs="12" lg="6">
+        <c-card class="mb-4">
+          <c-card-header>
+            Haftalık Sipariş Yoğunluğu
+          </c-card-header>
+          <c-card-body>
+            <c-chart type="bar" [data]="chartBarDataWeekDealer"></c-chart>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+    <c-row>
+      <c-col xs="12" lg="6">
+        <c-card class="mb-4">
+          <c-card-header>
+            Aylık Sipariş Yoğunluğu
+          </c-card-header>
+          <c-card-body>
+            <c-chart type="bar" [data]="chartBarDataMonthDealer"></c-chart>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+  </c-card-body>
+</c-card>  

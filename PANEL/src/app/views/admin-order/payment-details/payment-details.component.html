@@ -1,0 +1,36 @@
+<c-card class="mb-4">
+    <c-card-header>
+      <c-spinner color="primary" *ngIf="loading"></c-spinner>
+      <strong>Payment Details</strong>
+    </c-card-header>
+    <c-card-body>
+  
+      <table cTable>
+        <thead>
+          <tr>
+            <th scope="col">Payment Type</th>
+            <th scope="col">PaymentAmount</th>
+            <th scope="col">Date</th>
+            <th scope="col">Payment Description</th>
+            <th scope="col">Card Number</th>
+          </tr>
+        </thead>
+        <ng-container>
+            <tbody *ngIf="data !== null">
+                <tr>
+                  <th scope="row">{{ data.paymentType === 1 ? 'Eft Payment' : (data.paymentType === 2 ? 'Remittance Payment' : 'Credit Card Payment') }}</th>
+                  <td>{{ data.paymentAmount }}</td>
+                  <td>{{ data.paymentDate }}</td>
+                  <td>{{ data.paymentDescription }}</td>
+                  <td>{{ data.card.cardNumber }}</td>
+                </tr>
+              </tbody>
+              <tbody *ngIf="data === null">
+                <tr>
+                  <th scope="row">There is no payment information as it is paid from the open account limit.</th>
+                </tr>
+              </tbody>
+        </ng-container>
+      </table>
+    </c-card-body>
+  </c-card>

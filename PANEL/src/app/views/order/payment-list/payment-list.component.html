@@ -1,0 +1,31 @@
+<c-card class="mb-4">
+    <c-card-header>
+      <c-spinner color="primary" *ngIf="loading"></c-spinner>
+      <strong>Payment List</strong>
+    </c-card-header>
+    <c-card-body>
+        <table cTable>
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Payment Type</th>
+            <th scope="col">Payment Amount</th>
+            <th scope="col">Payment Date</th>
+            <th scope="col">Payment Description</th>
+            <th scope="col">Order Number</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let d of data; let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{ d.paymentType }}</td>
+            <td>{{ d.paymentAmount }}</td>
+            <td>{{ d.paymentDate | date:'dd-MM-yyyy' }}</td>
+            <td>{{ d.paymentDescription }}</td>
+            <td>{{ d.order.orderNumber }}</td>
+          </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+  </c-card>
+

@@ -1,0 +1,61 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Add Product</strong>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="productForm" cForm>
+
+        <div class="mb-3">
+          <label cLabel for="exampleFormControlInput1">Product Name</label>
+          <input cFormControl
+                 id="exampleFormControlInput1"
+                 placeholder="Enter Product Name"
+                 type="text"
+                 formControlName="productName"
+          />
+        </div>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput2">Product Description</label>
+            <input cFormControl
+                   id="exampleFormControlInput2"
+                   placeholder="Enter Product Description"
+                   type="text"
+                   formControlName="productDescription"
+            />
+          </div>
+
+        <div class="mb-3">
+          <label cLabel for="exampleFormControlInput3">Price</label>
+          <input cFormControl
+                 id="exampleFormControlInput3"
+                 placeholder="Enter Product Price"
+                 type="number"
+                 formControlName="price"
+          />
+        </div>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput4">Stock Quantity</label>
+            <input cFormControl
+                   id="exampleFormControlInput4"
+                   placeholder="Enter Stock Quantity"
+                   type="number"
+                   formControlName="stockQuantity"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label cLabel for="exampleFormControlInput5">Category</label>
+            <select aria-label="Default select example" formControlName="categoryId" id="exampleFormControlInput5" cSelect>
+              <option value="Select Category">Select Category</option>
+              <option *ngFor="let category of data" [value]="category.id">{{ category.name }}</option>
+            </select>
+          </div>
+
+        <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+          Add
+        </button>
+      </form>
+    </c-card-body>
+</c-card>

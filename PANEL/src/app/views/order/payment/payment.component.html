@@ -1,0 +1,71 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Pay Order</strong>
+      <h5>
+        If you want to pay by EFT or Remittance, your card must be a debit card.</h5>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="paymentForm" cForm>
+
+        <div class="mb-3">
+            <label cLabel for="paymentType">Payment Type</label>
+            <select aria-label="Default select example" formControlName="paymentType" id="paymentType" cSelect>
+              <option value="EftPayment">Eft Payment</option>
+              <option value="RemittancePayment">Remittance Payment</option>
+              <option value="CreditCardPayment">Credit Card Payment</option>
+            </select>
+        </div>
+
+        <div class="mb-3" *ngFor="let card of cardData; let i = index">
+            <c-card class="text-center mb-4" [style.border]="card === selectedCard ? '2px solid #007bff' : 'none'">
+                <c-card-header>{{ card.bankName }}</c-card-header>
+                <c-card-body>
+                  <p cCardText>
+                    {{ card.cardNumber }}
+                  </p>
+                  <p cCardTitle>EXP DATE: {{ card.expiryDate }}</p>
+                  <p cCardTitle>CVV: {{ card.cvv }}</p>
+                  <p cCardTitle>Card Holder: {{ card.cardHolderType }}</p>
+                  <p cCardTitle>Expense Limit: {{ card.expenseLimit }}</p>
+                </c-card-body>
+                <c-card-footer class="text-medium-emphasis">
+                    <div class="d-grid">
+                        <button cButton (click)="onChooseCard(card.cardNumber, card)" class="mt-3" color="primary">Choose Card</button>
+                    </div>
+                </c-card-footer>
+              </c-card>
+        </div>
+        
+        <div class="mb-3">
+            <label cLabel for="paymentDescription">Payment Description</label>
+            <input cFormControl
+                   id="paymentDescription"
+                   placeholder=""
+                   type="text"
+                   formControlName="paymentDescription"
+            />
+          </div>
+
+          <div>
+            <c-card class="text-center mb-4">
+                <c-card-body>
+                  <p cCardText>
+                    Total Amount: {{ orderData.totalAmount }} TL
+                  </p>
+                  <p cCardTitle>
+                    Order Number: {{ orderData.orderNumber }}
+                  </p>
+                </c-card-body>
+              </c-card>
+          </div>
+          
+        
+
+        <div class="d-grid">
+            <button cButton (click)="onSubmit()" class="mt-3" color="primary">Pay the Order</button>
+        </div>
+        
+      </form>
+    </c-card-body>
+</c-card>
+

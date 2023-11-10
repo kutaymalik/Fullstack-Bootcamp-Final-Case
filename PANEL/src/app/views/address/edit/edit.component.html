@@ -1,0 +1,63 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Edit <Address></Address></strong>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="address2Form" cForm>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput1">Address Line 1</label>
+            <input cFormControl
+                   id="addressLine1"
+                   placeholder="{{ address2Form.get('addressLine1')}}"
+                   type="text"
+                   formControlName="addressLine1"
+            />
+          </div>
+          <div class="mb-3">
+            <label cLabel for="exampleFormControlInput2">Address Line 2</label>
+            <input cFormControl
+                   id="addressLine2"
+                   placeholder="{{ address2Form.get('addressLine2')}}"
+                   type="text"
+                   formControlName="addressLine2"
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label cLabel for="exampleFormControlInput3">City</label>
+            <input cFormControl
+                   id="city"
+                   placeholder="{{ address2Form.get('city')}}"
+                   type="text"
+                   formControlName="city"
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label cLabel for="exampleFormControlInput4">County</label>
+            <input cFormControl
+                   id="county"
+                   placeholder="{{ address2Form.get('county')}}"
+                   type="text"
+                   formControlName="county"
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label cLabel for="exampleFormControlInput5">Postal Code</label>
+            <input cFormControl
+                   id="postalCode"
+                   placeholder="{{ address2Form.get('postalCode')}}"
+                   type="text"
+                   formControlName="postalCode"
+            />
+          </div>
+
+        
+        <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+          Save
+        </button>
+      </form>
+    </c-card-body>
+</c-card>

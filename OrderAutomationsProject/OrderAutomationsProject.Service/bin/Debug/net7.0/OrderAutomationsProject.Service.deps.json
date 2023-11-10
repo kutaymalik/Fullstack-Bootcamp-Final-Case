@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "OrderAutomationsProject.Service/1.0.0": {
+        "dependencies": {
+          "OrderAutomationsProject.Base": "1.0.0"
+        },
+        "runtime": {
+          "OrderAutomationsProject.Service.dll": {}
+        }
+      },
+      "OrderAutomationsProject.Base/1.0.0": {
+        "runtime": {
+          "OrderAutomationsProject.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderAutomationsProject.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderAutomationsProject.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

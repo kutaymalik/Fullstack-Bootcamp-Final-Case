@@ -1,0 +1,111 @@
+<c-card class="mb-4">
+  <c-card-header>
+    <c-spinner color="primary" *ngIf="loading"></c-spinner>
+    <strong>Order List</strong>
+  </c-card-header>
+  <c-card-body>
+    <h3>Confirmed Orders</h3>
+    <table cTable>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Order Number</th>
+          <th scope="col">Total Amount</th>
+          <th scope="col">Payment Status</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of data">
+          <ng-container *ngIf="d.confirmation === true">
+            <th scope="row">{{ d.id }}</th>
+            <td>{{ d.orderNumber }}</td>
+            <td>{{ d.totalAmount }}</td>
+            <td>{{ d.paymentStatus }}</td>
+            <td>
+              <button routerLink="/admin-order/detail/:{{d.id}}"  cButton class="px-2" color="primary">
+                Details
+              </button>
+            </td>
+            <td>
+              <button routerLink="/admin-order/payment-details/:{{d.id}}"  cButton class="px-2" color="primary">
+                Payment Details
+              </button>
+            </td>
+          </ng-container>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Pending Orders</h3>
+    <table cTable>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Order Number</th>
+          <th scope="col">Total Amount</th>
+          <th scope="col">Payment Status</th>
+          <th scope="col">Confirm Status</th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of data">
+          <ng-container *ngIf="d.confirmation == null">
+            <th scope="row">{{ d.id }}</th>
+            <td>{{ d.orderNumber ? d.orderNumber : 'N/A' }}</td>
+            <td>{{ d.totalAmount }}</td>
+            <td>{{ d.paymentStatus }}</td>
+            <td>{{ d.confirmation ?  d.confirmation: 'Waiting'}}</td>
+            <td>
+              <button routerLink="/admin-order/detail/:{{d.id}}"  cButton class="px-2" color="primary">
+                Details
+              </button>
+            </td>
+            <td>
+              <button (click)="confirmOrder(d.id)" cButton class="px-2" color="success">
+                Confirm
+              </button>
+            </td>
+            <td>
+              <button (click)="cancelOrder(d.id)" cButton class="px-2" color="danger">
+                Cancel
+              </button>
+            </td>
+          </ng-container>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Cancelled Orders</h3>
+    <table cTable>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Total Amount</th>
+          <th scope="col">Payment Status</th>
+          <th scope="col">Confirm Status</th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of data">
+          <ng-container *ngIf="d.confirmation == false">
+            <th scope="row">{{ d.id }}</th>
+            <td>{{ d.totalAmount }}</td>
+            <td>{{ d.paymentStatus }}</td>
+            <td>{{ d.confirmation }}</td>
+            <td>
+              <button routerLink="/admin-order/detail/:{{d.id}}"  cButton class="px-2" color="primary">
+                Details
+              </button>
+            </td>
+          </ng-container>
+        </tr>
+      </tbody>
+    </table>
+  </c-card-body>
+</c-card>

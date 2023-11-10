@@ -1,0 +1,121 @@
+<div class="bg-light min-vh-100 d-flex flex-row align-items-center">
+  <c-container>
+    <c-row class="justify-content-center">
+      <c-col lg="7" md="9" xl="6">
+        <c-card class="mx-4">
+          <c-card-body class="p-4">
+            <form [formGroup]="registerForm" cForm>
+              <h1>Register</h1>
+              <p class="text-medium-emphasis">Create your account</p>
+
+              <div class="mb-3">
+                <label cLabel for="role">Role</label>
+                <select aria-label="Default select example" formControlName="role" id="paymentType" cSelect>
+                  <option value="admin">Admin</option>
+                  <option value="dealer">Dealer</option>
+                </select>
+            </div>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>
+                  <svg cIcon name="cilUser"></svg>
+                </span>
+                <input cFormControl
+                      id="firstNameFormControlInput1" 
+                      placeholder="First name"
+                      type="text"
+                      formControlName="firstName"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>
+                  <svg cIcon name="cilUser"></svg>
+                </span>
+                <input cFormControl 
+                      id="lastNameFormControlInput1"
+                      placeholder="Last Name" 
+                      type="text"
+                      formControlName="lastName"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>@</span>
+                <input cFormControl 
+                      id="emailFormControlInput1"
+                      placeholder="Email" 
+                      type="email"
+                      formControlName="email"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>
+                  <svg cIcon name="cilLockLocked"></svg>
+                </span>
+                <input cFormControl 
+                      id="passwordHashFormControlInput1"
+                      placeholder="Password" 
+                      type="password"
+                      formControlName="passwordHash"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>
+                  <svg cIcon name="cilCalendar"></svg>
+                </span>
+                <input cFormControl 
+                      id="dateOfBirthHashFormControlInput1"
+                      placeholder="Date of Birth" 
+                      type="date"
+                      formControlName="dateOfBirth"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>90</span>
+                <input cFormControl 
+                      id="phoneNumberFormControlInput1"
+                      placeholder="Phone Number" 
+                      type="text"
+                      formControlName="phoneNumber"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>
+                  <svg cIcon name="cil-calculator"></svg>
+                </span>
+                <input cFormControl 
+                      id="dividendFormControlInput1"
+                      placeholder="Dividend" 
+                      type="number"
+                      formControlName="dividend"
+                />
+              </c-input-group>
+
+              <c-input-group class="mb-3">
+                <span cInputGroupText>
+                  <svg cIcon name="cil-credit-card"></svg>
+                </span>
+                <input cFormControl 
+                      id="openAccountLimitFormControlInput1"
+                      placeholder="Open Account Limit" 
+                      type="number"
+                      formControlName="openAccountLimit"
+                />
+              </c-input-group>
+
+
+              <div class="d-grid">
+                <button cButton (click)="onSubmit()" color="success">Create Account</button>
+              </div>
+            </form>
+          </c-card-body>
+        </c-card>
+      </c-col>
+    </c-row>
+  </c-container>
+</div>

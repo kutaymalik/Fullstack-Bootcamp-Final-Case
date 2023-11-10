@@ -1,0 +1,11 @@
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\bin\Debug\net7.0\OrderAutomationsProject.deps.json
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\bin\Debug\net7.0\OrderAutomationsProject.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\bin\Debug\net7.0\OrderAutomationsProject.pdb
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\OrderAutomationsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\OrderAutomationsProject.AssemblyInfoInputs.cache
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\OrderAutomationsProject.AssemblyInfo.cs
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\OrderAutomationsProject.csproj.CoreCompileInputs.cache
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\OrderAutomationsProject.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\refint\OrderAutomationsProject.dll
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\OrderAutomationsProject.pdb
+C:\Users\90542\source\repos\OrderAutomationsProject\OrderAutomationsProject\obj\Debug\net7.0\ref\OrderAutomationsProject.dll

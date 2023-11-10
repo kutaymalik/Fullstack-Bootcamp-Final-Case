@@ -1,0 +1,33 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Add Category</strong>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="categoryForm" cForm>
+
+        <div class="mb-3">
+          <label cLabel for="exampleFormControlInput1">Name</label>
+          <input cFormControl
+                 id="exampleFormControlInput1"
+                 placeholder="Enter Category Name"
+                 type="text"
+                 formControlName="name"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label cLabel for="exampleFormControlInput2">Description</label>
+          <input cFormControl
+                 id="exampleFormControlInput2"
+                 placeholder="Enter Description"
+                 type="text"
+                 formControlName="description"
+          />
+        </div>
+        
+        <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+          Add
+        </button>
+      </form>
+    </c-card-body>
+</c-card>

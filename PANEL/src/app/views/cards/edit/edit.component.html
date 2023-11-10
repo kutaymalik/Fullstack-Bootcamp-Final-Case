@@ -1,0 +1,24 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Card Edit</strong>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="cardForm" cForm>
+
+        <div class="mb-3">
+          <label cLabel for="exampleFormControlInput4">Expense Limit</label>
+          <input cFormControl
+                 id="exampleFormControlInput4"
+                 placeholder="e.g. 999999"
+                 type="number"
+                 formControlName="expenseLimit"
+          />
+        </div>
+
+        
+        <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+          Save
+        </button>
+      </form>
+    </c-card-body>
+</c-card>

@@ -1,0 +1,33 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+      <strong>Edit <Address></Address></strong>
+    </c-card-header>
+    <c-card-body> 
+      <form [formGroup]="categoryForm" cForm>
+
+        <div class="mb-3">
+            <label cLabel for="exampleFormControlInput1">Name</label>
+            <input cFormControl
+                   id="name"
+                   placeholder="{{ categoryForm.get('name')}}"
+                   type="text"
+                   formControlName="name"
+            />
+          </div>
+          <div class="mb-3">
+            <label cLabel for="exampleFormControlInput2">Description</label>
+            <input cFormControl
+                   id="description"
+                   placeholder="{{ categoryForm.get('description')}}"
+                   type="text"
+                   formControlName="description"
+            />
+          </div>
+
+        
+        <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+          Save
+        </button>
+      </form>
+    </c-card-body>
+</c-card>

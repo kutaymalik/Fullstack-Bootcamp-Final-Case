@@ -1,0 +1,40 @@
+<c-card class="mb-4">
+    <c-card-header>
+      <c-spinner color="primary" *ngIf="loading"></c-spinner>
+      <strong>Card List</strong>
+    </c-card-header>
+    <c-card-body>
+        <table cTable>
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Card Number</th>
+            <th scope="col">Expiry Date</th>
+            <th scope="col">cvv</th>
+            <th scope="col">Expense Limit</th>
+            <th scope="col">Bank Name</th>
+            <th scope="col">CardHolder</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let d of data; let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{ d.cardNumber }}</td>
+            <td>{{ d.expiryDate }}</td>
+            <td>{{ d.cvv }}</td>
+            <td>{{ d.expenseLimit }}</td>
+            <td>{{ d.bankName }}</td>
+            <td>{{ d.cardHolderType }}</td>
+            <td><button routerLink="/card/edit/:{{d.id}}" cButton class="px-2" color="primary">
+              Edit
+            </button></td>
+            <td><button cButton (click)="isDelete(d.id)" class="px-2" color="primary">
+              Delete
+            </button></td>
+          </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+  </c-card>

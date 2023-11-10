@@ -1,0 +1,77 @@
+<c-card class="mb-4">
+    <c-card-header>
+      <c-spinner color="primary" *ngIf="loading"></c-spinner>
+      <strong>Orders List</strong>
+    </c-card-header>
+    <c-card-body>
+        <table cTable>
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Number</th>
+            <th scope="col">Confirmation</th>
+            <th scope="col">Date</th>
+            <th scope="col">Total Amount</th>
+            <th scope="col">Payment Status</th>
+          </tr>
+          </thead>
+          <tbody>
+            <ng-container *ngFor="let d of data; let i = index">
+                <tr>
+                  <th scope="row">{{i + 1}}</th>
+                  <td>{{ d.orderNumber ? d.orderNumber : 'N/A' }}</td>
+                  <td>{{ d.confirmation ?  d.confirmation: 'Waiting' }}</td>
+                  <td>{{ d.insertDate }}</td>
+                  <td>{{ d.totalAmount }}</td>
+                  <td>{{ d.paymentStatus ? d.paymentStatus : 'Waiting' }}</td>
+                </tr>
+              </ng-container>
+          </tbody>
+        </table>
+    </c-card-body>
+  </c-card>
+
+  <c-card class="mb-4" >
+    <c-card-header>
+      <c-spinner color="primary" *ngIf="loading"></c-spinner>
+      <strong>Reports</strong>
+    </c-card-header>
+    <c-card-body>
+      <c-row>
+        <c-col xs="12" lg="6">
+          <c-card class="mb-4">
+            <c-card-header>
+              Daily Order Intensity
+            </c-card-header>
+            <c-card-body>
+              <c-chart type="bar" [data]="chartBarDataDayDealer"></c-chart>
+            </c-card-body>
+          </c-card>
+        </c-col>
+      </c-row>
+      <c-row>
+        <c-col xs="12" lg="6">
+          <c-card class="mb-4">
+            <c-card-header>
+              Weekly Order Intensity
+            </c-card-header>
+            <c-card-body>
+              <c-chart type="bar" [data]="chartBarDataWeekDealer"></c-chart>
+            </c-card-body>
+          </c-card>
+        </c-col>
+      </c-row>
+      <c-row>
+        <c-col xs="12" lg="6">
+          <c-card class="mb-4">
+            <c-card-header>
+              Monthly Order Intensity
+            </c-card-header>
+            <c-card-body>
+              <c-chart type="bar" [data]="chartBarDataMonthDealer"></c-chart>
+            </c-card-body>
+          </c-card>
+        </c-col>
+      </c-row>
+    </c-card-body>
+  </c-card>
