@@ -21,7 +21,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
   
   ![choose db2](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/2cdb8df6-8052-483b-828a-3aba63826103) <br/> <br/>
   
-- ![choose db3](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/1fe6d03e-8d8a-4aa8-b6f1-b0c9ce3b898e) <br/> <br/>
+  ![choose db3](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/1fe6d03e-8d8a-4aa8-b6f1-b0c9ce3b898e) <br/> <br/>
 
   
 - Sonrasında Api katmanında bulunan apsettings.json adlı dosyayı açarak MsSqlConnection adlı alandaki pathi değiştirin ve dosyayı kaydediniz. <br/> <br/>
