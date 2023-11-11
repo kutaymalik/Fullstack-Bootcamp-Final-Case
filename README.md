@@ -63,3 +63,17 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
 ![frontend works](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/1277bf9c-d2f7-4570-b5aa-6b148fcd98c6)
 
+# Kullanım
+- Admin ile kayıt olunuz.
+- Kayıt olunan mail ile girş yapınız
+- kategori ve ürünler oluşturunuz
+- Sağ üstten logout olarak dealer ile kayıt olup giriş yapınız. 
+- Navigasyondan card oluşturunuz. 
+- navigasyondan order oluşturunuz.
+- Admin ile giriş yapıp navigasyondaki order liste girip orderı confirm ediniz.
+- dealer ile giriş yaptıktan sonra eğer açık hesaptan ödeme yapmamışsanız orderlistten confirmed orderların ödemesini yapabilirsiniz.
+- Dashboardlarda istenilen yoğunluk reportları bulunmaktadır. 
+- admin ile dealer listten dealera mesaj gönderebilirsiniz.
+- dealer ile sağ üst avatara tıklayıp mesaj kısmından admine mesaj gönderebilirsiniz. Dealer sadece admine mesaj atabilir admin bütün dealerlara mesaj atabilir.
+- Dealer rolündeyken avatara tıklayıp bilgileri güncelleyebilirsiniz.
+
