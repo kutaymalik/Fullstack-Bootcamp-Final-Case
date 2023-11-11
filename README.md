@@ -54,16 +54,46 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
 # Kullanım
 - Admin ile kayıt olunuz.
-- Kayıt olunan mail ile girş yapınız
-- kategori ve ürünler oluşturunuz
-- Sağ üstten logout olarak dealer ile kayıt olup giriş yapınız. 
-- Navigasyondan card oluşturunuz. 
-- navigasyondan order oluşturunuz.
-- Admin ile giriş yapıp navigasyondaki order liste girip orderı confirm ediniz.
-- dealer ile giriş yaptıktan sonra eğer açık hesaptan ödeme yapmamışsanız orderlistten confirmed orderların ödemesini yapabilirsiniz.
-- Dashboardlarda istenilen yoğunluk reportları bulunmaktadır. 
-- admin ile dealer listten dealera mesaj gönderebilirsiniz.
-- dealer ile sağ üst avatara tıklayıp mesaj kısmından admine mesaj gönderebilirsiniz. Dealer sadece admine mesaj atabilir admin bütün dealerlara mesaj atabilir.
-- Dealer rolündeyken avatara tıklayıp bilgileri güncelleyebilirsiniz.
-- Arayüzde görünen bütün özellikler çalışmaktadır.
+![admin kayıt](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/3f83730b-1781-423e-a11e-824cd47ac50e)  <br/> <br/>
 
+- Kayıt olunan mail ile girş yapınız
+![admin giriş](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/3eacfbc6-74d5-40e3-a366-ef8169ce0fc1)  <br/> <br/>
+
+- Kategori ve ürünler oluşturunuz
+![kategori oluşturma](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/686cb6f8-997c-4535-80d9-461b3a92419e)  <br/> <br/>
+
+![Ürün ekleme](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/2c736354-a78c-49f8-8adf-bd1de8180e7e)  <br/> <br/>
+
+- Sağ üstten logout olarak dealer ile kayıt olup giriş yapınız.
+![dealer kayıt](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/8eaf0c5f-3c8e-465f-b136-a39a9b79366e)  <br/> <br/>
+
+
+- Navigasyondan card oluşturunuz.
+![kart ekleme](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/e6e019d2-81a2-4065-8ef1-9acee4fc514e)  <br/> <br/>
+
+- Navigasyondan order oluşturunuz.
+![sipariş oluşturma](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/9ca18e3c-9e8c-4370-b245-7efe1d503167)  <br/> <br/>
+
+
+- Admin ile giriş yapıp navigasyondaki order liste girip orderı confirm ediniz.
+![order confirm cancel](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/b24998da-e5f5-4a45-8979-e1c986e6974b)
+
+- Dealer ile giriş yaptıktan sonra eğer açık hesaptan ödeme yapmamışsanız orderlistten confirmed orderların ödemesini yapabilirsiniz.
+![order ödeme](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/525a3754-49fc-4548-bc53-43947b341fe3)  <br/> <br/>
+
+![ödeme işlemi](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/6f70f693-c55e-4336-9b0a-1064778d7d89)  <br/> <br/>
+
+  
+- Dashboardlarda istenilen yoğunluk reportları bulunmaktadır.
+![sipraiş yoğunluğu raporu](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/6160b59f-5dac-4fec-9f28-6c853ed4f0da)  <br/> <br/>
+
+
+- Admin ile dealer listten dealera mesaj gönderebilirsiniz.
+- Dealer ile sağ üst avatara tıklayıp mesaj kısmından admine mesaj gönderebilirsiniz. Dealer sadece admine mesaj atabilir admin bütün dealerlara mesaj atabilir.
+![mesaj](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/054ac3ea-fa77-4444-b6df-eef39137595c)  <br/> <br/>
+
+- Dealer rolündeyken avatara tıklayıp bilgileri güncelleyebilirsiniz.
+![bilgi güncelleme](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/6f130b65-3375-4714-ab07-78e9474e814b)  <br/> <br/>
+
+- Admin rolünde kullanıcıların kar marjı ve açık hesap limitlerini güncelleyebilirsiniz.
+- Dealer bazlı siparişleri dealer list kısmından görüntüleyebilirsiniz.
