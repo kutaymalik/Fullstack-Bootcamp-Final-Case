@@ -76,4 +76,5 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 - admin ile dealer listten dealera mesaj gönderebilirsiniz.
 - dealer ile sağ üst avatara tıklayıp mesaj kısmından admine mesaj gönderebilirsiniz. Dealer sadece admine mesaj atabilir admin bütün dealerlara mesaj atabilir.
 - Dealer rolündeyken avatara tıklayıp bilgileri güncelleyebilirsiniz.
+- Arayüzde görünen bütün özellikler çalışmaktadır.
 
