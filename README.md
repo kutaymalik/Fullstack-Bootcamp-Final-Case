@@ -21,7 +21,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
   
 - Sonrasında Api katmanında bulunan apsettings.json adlı dosyayı açarak MsSqlConnection adlı alandaki pathi değiştirin ve dosyayı kaydediniz. <br/> <br/>
-  ![db path](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/99c88d2e-ed3a-450e-aef3-f6df6fc81168)<br/> <br/>
+ ![db path](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/99c88d2e-ed3a-450e-aef3-f6df6fc81168)<br/> <br/>
 
   
 - Developer Powershell terminalini açarak (dotnet ef migrations add InitialMigration --verbose --project OrderAutomationsProject.Data --startup-project OrderAutomationsProject.Api) komutunu çalıştırınız  <br/> <br/>
@@ -33,7 +33,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
   
 - Backend kullanıma hazır. Üstteki https seçeneği ile projeyi çalıştırınız. <br/> <br/>
-  ![to work](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/586164ee-fecc-48e1-a2ad-29828e5c1ae8)<br/> <br/>
+![to work](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/586164ee-fecc-48e1-a2ad-29828e5c1ae8)<br/> <br/>
 
 ## Frontend <br/> <br/>
 - VsCode'u açarak frontend dosyasını açınız. <br/> <br/>
@@ -41,8 +41,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
   
 - Command Prompt terminalini açınız (CTRL + J) <br/> <br/>
-  
-![open vscode terminal](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/f0912b01-17af-4b58-b307-d90d4e3b5827) <br/> <br/>
+![open vscode terminal](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/0b615dbc-f325-4c49-80e8-d7c487a378a0) <br/> <br/>
 
   
 - Gereklilikleri (npm install) indiriniz. <br/> <br/>
