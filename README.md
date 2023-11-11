@@ -59,7 +59,7 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 ![download requirements](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/f7fc42c6-7272-40dd-870b-b7f5048a3d04) <br/> <br/>
 
   
-- Frontend çalışmaya hazır !
+- Frontend çalışmaya hazır ! (http://localhost:4200/)'e bağlanarak açabilirsiniz.
 
 ![frontend works](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/1277bf9c-d2f7-4570-b5aa-6b148fcd98c6)
 
