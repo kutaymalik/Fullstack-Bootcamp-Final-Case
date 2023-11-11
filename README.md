@@ -1,4 +1,4 @@
-# Fullstack-Bootcamp-Final-Case
+# Fullstack-Bootcamp-Final-Case (Readme güncellemesini repoyu public yapınca resimler kaybolduğu için yaptım. Ondan önceki son commitim 8 saat öncedir.)
 Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Projede temel amaç iki tür kullanıcının olduğu (admin(şirket) - bayii) bir sipariş sistemi oluşturmaktır. 
 
 ## Projeyi Ayağa Kaldırma Adımları 
@@ -7,46 +7,37 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
 
 - MSSql'i açarak yeni bir Database oluşturun(İsim: OaDb). (Backend MSSql ile çalıştığı için çalıştıralacak cihazda MSSql bulunmalıdır.) <br/> <br/>
-  
-![create database 1](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/8062fdcd-c335-4ede-8fd4-b4988080ff09) <br/> <br/>
+![create database 1](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/97b9dd83-e1fe-4085-82c3-d4d08c24dd0a) <br/> <br/>
 
-  
-![create database 2](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/8facdd58-ecf3-41f0-8bf0-d1861b9e2b7b) <br/> <br/>
+![create database 2](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/54733622-6640-4c60-99ef-77f3b580f987) <br/> <br/>
 
   
 - Daha sonra OrderAutomationsProject dosyayı içinde bulunan sln dosyasını Visual Studio 2022'de açın. <br/> <br/>
 
   
 - Visual Studio'nun Server Explorer'ını açın (üstteki search çubuğundan bulabilirsiniz.) Oluşturduğunuz db'nin pathini properties'ten kopyalayın. <br/> <br/>
-  
-![choose db2](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/2cdb8df6-8052-483b-828a-3aba63826103) <br/> <br/>
-  
-![choose db3](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/1fe6d03e-8d8a-4aa8-b6f1-b0c9ce3b898e) <br/> <br/>
+![choose db2](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/e1d97e4b-3c74-4c5f-9cdd-e49096c70b4c)<br/> <br/>
+![choose db3](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/34a25cbd-537b-4c5f-85bc-76fe7fb969e9) <br/> <br/>
 
   
 - Sonrasında Api katmanında bulunan apsettings.json adlı dosyayı açarak MsSqlConnection adlı alandaki pathi değiştirin ve dosyayı kaydediniz. <br/> <br/>
-  
-![db path](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/d7127c3e-f981-4a93-8cc3-4b7412b9b999) <br/> <br/>
+  ![db path](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/99c88d2e-ed3a-450e-aef3-f6df6fc81168)<br/> <br/>
 
   
 - Developer Powershell terminalini açarak (dotnet ef migrations add InitialMigration --verbose --project OrderAutomationsProject.Data --startup-project OrderAutomationsProject.Api) komutunu çalıştırınız  <br/> <br/>
-
-  ![add migration](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/42d8ea21-2e5a-47f5-9129-fb81e382abc4) <br/> <br/>
+![add migration](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/982c9fbe-15f4-47c7-b38a-3084cc6e1197) <br/> <br/>
 
 
 - Update Databse komutunu çalıştırınız (dotnet ef database update  --verbose --project OrderAutomationsProject.Data --startup-project OrderAutomationsProject.Api) <br/> <br/>
-
-![update database](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/89d3addb-f1c3-46f4-8ac8-12a1cc6872de) <br/> <br/>
+![update database](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/bfc43e12-3238-4096-8c20-f0fb97967e63)<br/> <br/>
 
   
 - Backend kullanıma hazır. Üstteki https seçeneği ile projeyi çalıştırınız. <br/> <br/>
-  
-![to work](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/b48949f5-891d-48d8-9295-9cced10d16e3) <br/> <br/>
+  ![to work](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/586164ee-fecc-48e1-a2ad-29828e5c1ae8)<br/> <br/>
 
 ## Frontend <br/> <br/>
 - VsCode'u açarak frontend dosyasını açınız. <br/> <br/>
-
-![open frontend](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/b3af11a2-6458-4068-a65b-4beb0819228a) <br/> <br/>
+![open frontend](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/97524600-ecd6-4589-9958-d3357d82cfbc)<br/> <br/>
 
   
 - Command Prompt terminalini açınız (CTRL + J) <br/> <br/>
@@ -55,13 +46,11 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 
   
 - Gereklilikleri (npm install) indiriniz. <br/> <br/>
-
-![download requirements](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/f7fc42c6-7272-40dd-870b-b7f5048a3d04) <br/> <br/>
+![download requirements](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/ef4e5964-89c5-49f3-a404-558d286b7b1f) <br/> <br/>
 
   
 - Frontend çalışmaya hazır ! (http://localhost:4200/)'e bağlanarak açabilirsiniz.
-
-![frontend works](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/1277bf9c-d2f7-4570-b5aa-6b148fcd98c6)
+![frontend works](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/f459e333-a61e-4bbd-8f92-2e72f2dc81a3)
 
 # Kullanım
 - Admin ile kayıt olunuz.
