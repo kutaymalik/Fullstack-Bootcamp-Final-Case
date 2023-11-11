@@ -95,4 +95,6 @@ Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Proje
 ![bilgi güncelleme](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/6f130b65-3375-4714-ab07-78e9474e814b)  <br/> <br/>
 
 - Admin rolünde kullanıcıların kar marjı ve açık hesap limitlerini güncelleyebilirsiniz.
-- Dealer bazlı siparişleri dealer list kısmından görüntüleyebilirsiniz.
+- Dealer bazlı siparişleri ve raporları dealer list kısmından görüntüleyebilirsiniz.
+![dealer bazlı siparişler ve rapor](https://github.com/kutaymalik/Fullstack-Bootcamp-Final-Case/assets/56682209/cbd07090-0549-4a36-aa10-dc80f0356911)
+
