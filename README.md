@@ -1,4 +1,4 @@
-# Fullstack-Bootcamp-Final-Case (Readme güncellemesini repoyu public yapınca resimler kaybolduğu için yaptım. Ondan önceki son commitim 8 saat öncedir.)
+# Fullstack-Bootcamp-Final-Case
 Bu repository Vakıfbank - Patika FullStack programının final ödevidir. Projede temel amaç iki tür kullanıcının olduğu (admin(şirket) - bayii) bir sipariş sistemi oluşturmaktır. 
 
 ## Projeyi Ayağa Kaldırma Adımları 
